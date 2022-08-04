@@ -1,0 +1,6 @@
+*.hdf5
+*.csv
+*.pkl
+logs/*
+models/*
+results/*

@@ -1,0 +1,13 @@
+TRAIN_DIR: '/disk_local/vypham/dataset/room_type/refines/refine_6/train/'
+VALID_DIR: '/disk_local/vypham/dataset/room_type/refines/refine_6/valid/'
+
+train_both: False # In the case you determined epoch model starting to converage, using train both to train in both train and valid dataset
+save_file: "/disk_local/vypham/room_type_classification/results/classification_results.csv"
+model_path: "/disk_local/vypham/room_type_classification/models/efficientnetv2-b1/refine_6_both_mdl_wts.hdf5"
+efficient_path: "/disk_local/vypham/room_type_classification/data/feature-vector"
+num_classes: 20
+class_id_to_label_name_path: "/disk_local/vypham/room_type_classification/class_id_to_label_name.pkl"
+model_name: "efficientnetv2-b1"
+confidence_threshold: 0.8
+options: "refine_6_cutout"
+save_image_results: True
